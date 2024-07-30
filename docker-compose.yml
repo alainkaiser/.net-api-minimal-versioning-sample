@@ -1,0 +1,6 @@
+﻿services:
+  sampleapiversioning:
+    image: sampleapiversioning
+    build:
+      context: .
+      dockerfile: SampleApiVersioning/Dockerfile
